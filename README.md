@@ -10,6 +10,7 @@ Gitter - https://gitter.im/chat-runner/Lobby
  - Language / Framework to use for the game
  - Chatbot technolody
  - Game rules
+   - Turn-based vs. All at once? Whats easiest / Most challenging?
+   - Force 1 user to answer your question, or let anyone answer your questopn?
  - Public Leaderboard?
- - 
 
