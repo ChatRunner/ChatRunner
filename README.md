@@ -6,6 +6,7 @@ Also inspired by the old **and** upcoming movie BladeRunner!
 Gitter - https://gitter.im/chat-runner/Lobby
 
 ## TODO
+ - System Architecture
  - Language / Framework to use for the game
  - Chatbot technolody
  - Game rules
