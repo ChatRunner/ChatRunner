@@ -6,11 +6,35 @@ Also inspired by the old **and** upcoming movie BladeRunner!
 Gitter - https://gitter.im/chat-runner/Lobby
 
 ## TODO
- - System Architecture
- - Language / Framework to use for the game
- - Chatbot technolody
- - Game rules
-   - Turn-based vs. All at once? Whats easiest / Most challenging?
-   - Force 1 user to answer your question, or let anyone answer your questopn?
- - Public Leaderboard?
+ - Application 
+   - Front End
+     - React for UI?
+     - Sass?
+   - Back End
+     - Python for machine learning + AI?
+     - PostreSQL for DB?
+ - Utilities 
+    - Machine Learning Packages
+    - Chat Room Packages
+ - DevOps + Tools
+    - GitHub
+    - Gitter
+    - Webpack?
+    - Mocha/Jest?
 
+## Stack
+ - Application 
+   - Front End
+     - React for UI?
+     - Sass?
+   - Back End
+     - Python for machine learning + AI?
+     - PostreSQL for DB?
+ - Utilities 
+    - Machine Learning Packages
+    - Chat Room Packages
+ - DevOps + Tools
+    - GitHub
+    - Gitter
+    - Webpack?
+    - Mocha/Jest?
