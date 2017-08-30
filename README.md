@@ -29,6 +29,7 @@ Gitter - https://gitter.im/chat-runner/Lobby
      - Sass?
    - Back End
      - Python for machine learning + AI?
+     - PHP for web-backend? (Symfony + Webpack Encore for asset manangement)?
      - PostreSQL for DB?
  - Utilities 
     - Machine Learning Packages
@@ -36,5 +37,5 @@ Gitter - https://gitter.im/chat-runner/Lobby
  - DevOps + Tools
     - GitHub
     - Gitter
-    - Webpack?
+    - Webpack
     - Mocha/Jest?
