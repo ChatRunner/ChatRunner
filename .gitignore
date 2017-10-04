@@ -1,0 +1,30 @@
+
+public/typings/
+vendor
+.env
+
+.idea
+
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# Cache, session files and logs (Symfony3)
+/var
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+
+###> symfony/webpack-encore-pack ###
+/node_modules/
+###< symfony/webpack-encore-pack ###
+
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###
