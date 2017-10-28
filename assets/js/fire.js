@@ -8,4 +8,13 @@ const config = {
     storageBucket: "chatrunner-4974b.appspot.com",
     messagingSenderId: "999977696366"
 };
-export default fire = firebase.initializeApp(config);
+export const firebaseApp = firebase.initializeApp(config);
+
+export const db = firebaseApp.database(); //the real-time database
+export const auth = firebaseApp.auth(); //the firebase auth namespace
+
+export const storageKey = 'FIREBASE_AUTH_KEY';
+
+export const isAuthenticated = () => {
+    return !!auth.currentUser || !!localStorage.getItem(storageKey);
+}
