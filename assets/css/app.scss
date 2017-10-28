@@ -1,4 +1,11 @@
+$body-bg: blue;
+$text-color: white;
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+
+
 html {
-  background: black;
-  color: white;
+  background: $body-bg;
+  color: $text-color;
 }
