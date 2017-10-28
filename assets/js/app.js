@@ -1,12 +1,12 @@
-global.$ = global.jQuery = require('jquery')
-const ReactDOM = require("react-dom")
-const React = require("react")
-const FontAwesome = require('react-fontawesome');
-require("bootstrap-sass")
-// require("bootstrap-sass/assets/stylesheets/_bootstrap.scss");
+// import * as $ from 'jquery'
+import ReactDOM from 'react-dom'
+import FontAwesome from 'react-fontawesome'
+import React from 'react'
+import {Col, Grid} from 'react-bootstrap'
+import fire from 'fire'
 
 ReactDOM.render(
-    <div>
+    <Grid><Col lg={8}>
         <h1>Hello, world!</h1>
         <h3>Requirements:</h3>
         <ul>
@@ -30,7 +30,7 @@ ReactDOM.render(
             <li>Backend code is in ./src</li>
             <li>Backend templates is in ./templates</li>
         </ul>
-    </div>
+    </Col></Grid>
     ,
     document.getElementById('root')
 )
